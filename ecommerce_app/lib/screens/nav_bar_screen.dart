@@ -14,20 +14,29 @@ class BottomNavBar extends StatefulWidget {
 
 class _BottomNavBarState extends State<BottomNavBar> {
   int cuttentIndex = 2;
-    List screens = const [
+    List screens = [
     Scaffold(
-      body: Center(heightFactor: 50,
-        child: Text("CATEGORYS",style: TextStyle(
-          color: Colors.black,
-          fontWeight: FontWeight.bold,
-          fontSize: 70,
-        ),),
+      appBar: AppBar(
+        leading: const Text(" Categorys",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
+        
       ),
+      body: const ListTile(
+        leading: CircleAvatar(backgroundImage: AssetImage("images/category.jpg"),),
+        title: Text("For you"),
+
+        
+        
+      ),
+
+      
+      
+      
+      
     ),
-    Favorite(),
-    HomeScreen(),
-    CartScreen(),
-    Profile(),
+    const Favorite(),
+    const HomeScreen(),
+    const CartScreen(),
+    const Profile(),
   ];
   @override
   Widget build(BuildContext context) {

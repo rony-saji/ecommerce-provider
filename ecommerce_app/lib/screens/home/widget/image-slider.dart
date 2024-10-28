@@ -25,7 +25,7 @@ class ImageSlider extends StatelessWidget {
               physics: const ClampingScrollPhysics(),
               children: [
                 Image.asset(
-                  "images/slider.jpg",
+                  "images/mens.jpg",
                   fit: BoxFit.cover,
                 ),
                 Image.asset(
@@ -33,11 +33,11 @@ class ImageSlider extends StatelessWidget {
                   fit: BoxFit.cover,
                 ),
                 Image.asset(
-                  "images/slider3.png",
+                  "images/slider.jpg",
                   fit: BoxFit.cover,
                 ),
                 Image.asset("images/buy one.jpg",fit: BoxFit.cover,),
-                Image.asset("images/big billion.jpg",fit: BoxFit.cover,)
+                Image.asset( "images/fassion sale.webp",fit: BoxFit.cover,)
               ],
             ),
           ),
