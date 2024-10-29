@@ -17,7 +17,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
     List screens = [
     Scaffold(
       appBar: AppBar(
-        leading: const Text(" Categorys",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
+        title:  const Text(" Categorys",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),centerTitle: true,
         
       ),
       body: const ListTile(
