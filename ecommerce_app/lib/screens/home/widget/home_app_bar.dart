@@ -1,4 +1,4 @@
-import 'package:ecommerce_app/constants.dart';
+
 import 'package:flutter/material.dart';
 
 class CustomAppBar extends StatelessWidget {
@@ -13,22 +13,23 @@ class CustomAppBar extends StatelessWidget {
       children: [
         IconButton(
           style: IconButton.styleFrom(
-            backgroundColor: kcontentColor,
+            backgroundColor: Colors.white,
             padding: const EdgeInsets.all(15),
           ),
           onPressed: () {},
           icon: Image.asset(
-            "images/icon.png",
-            height: 20,
+            "images/all/freepic.jpg",height: 45, width: 45 ,
+            
+            
           ),
         ),
         IconButton(
           style: IconButton.styleFrom(
-            backgroundColor: kcontentColor,
+            backgroundColor: Colors.white,
             padding: const EdgeInsets.all(15),
           ),
           onPressed: () {},
-          iconSize: 30,
+          
           icon: const Icon(Icons.notifications_outlined),
         ),
       ],

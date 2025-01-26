@@ -53,7 +53,7 @@ class _CartScreenState extends State<CartScreen> {
                   ),
                 ),
                 const Text(
-                  "My Cart",
+                  "MY CART",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 25,
@@ -131,6 +131,9 @@ class _CartScreenState extends State<CartScreen> {
                       right: 35,
                       child: Column(
                         children: [
+                          const SizedBox(
+                            width: 10,
+                          ),
                           IconButton(
                             onPressed: () {
                               finalList.removeAt(index);

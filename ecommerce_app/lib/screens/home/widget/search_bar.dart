@@ -34,13 +34,7 @@ class MySearchBAR extends StatelessWidget {
             width: 1.5,
             color: Colors.grey,
           ),
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(
-              Icons.tune,
-              color: Colors.grey,
-            ),
-          ),
+          
         ],
       ),
     );

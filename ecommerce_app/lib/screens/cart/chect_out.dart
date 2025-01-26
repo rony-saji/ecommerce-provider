@@ -33,7 +33,7 @@ class CheckOutBox extends StatelessWidget {
               ),
               filled: true,
               fillColor: kcontentColor,
-              hintText: "Enter Discoutn Code",
+              hintText: "Enter Discount Code",
               hintStyle: const TextStyle(
                 color: Colors.grey,
                 fontWeight: FontWeight.w600,
@@ -57,7 +57,7 @@ class CheckOutBox extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               const Text(
-                "SbuTotal",
+                "Sub Total",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Colors.grey,

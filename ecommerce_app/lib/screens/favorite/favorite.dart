@@ -19,7 +19,7 @@ class _FavoriteState extends State<Favorite> {
       appBar: AppBar(
         backgroundColor: kcontentColor,
         title: const Text(
-          "Favorite",
+          "WISHLIST",
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         centerTitle: true,

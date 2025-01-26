@@ -34,7 +34,7 @@ class _AddToCartState extends State<AddToCart> {
               height: 40,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
-                border: Border.all(color: Colors.black, width: 2),
+                border: Border.all(color: Colors.grey, width: 2),
               ),
               child: Row(
                 children: [
@@ -75,6 +75,9 @@ class _AddToCartState extends State<AddToCart> {
                   )
                 ],
               ),
+            ),
+            SizedBox(
+              width: 10,
             ),
             GestureDetector(
               onTap: () {
